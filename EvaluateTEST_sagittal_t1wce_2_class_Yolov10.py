@@ -19,6 +19,7 @@ dirnameLabels="Test1\\labels"
 dirnameYolo="runs\\train\\exp2\\weights\\best.pt"
 
 dirnameYolo="last14epoch9hits.pt"
+#dirnameYolo="last27epoch7x0.pt"
 
 import cv2
 import time
@@ -31,6 +32,7 @@ from ultralytics import YOLO
 model = YOLO(dirnameYolo)
 
 class_list = model.model.names
+print(class_list)
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -112,10 +114,10 @@ def loadlabels(dirnameLabels):
                       #print(linea)
                       indexFracture=int(linea[0])
                       
-                      if indexFracture==0:
-                           indexFracture=1
-                      else:
-                            indexFracture=0
+                      #if indexFracture==0:
+                      #     indexFracture=1
+                      #else:
+                      #      indexFracture=0
                             
                       Label=class_list[indexFracture]
                       #print(Label)
@@ -177,10 +179,10 @@ def Detect_sagittal_t1wceWithYolov10 (img):
            con=confidence[j]
            Tabconfidence.append(con)
            # due to arror assignement of classes in yaml
-           if class_id[j]==0 :
-               class_id[j]=1
-           else:
-               class_id[j]=0 
+           #if class_id[j]==0 :
+           #    class_id[j]=1
+           #else:
+           #    class_id[j]=0 
            label=class_list[class_id[j]] + " " + str(con)[0:4]
            print(label)
            LabelTotal=LabelTotal+" " + label
