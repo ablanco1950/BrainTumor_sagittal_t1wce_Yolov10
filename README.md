@@ -67,6 +67,7 @@ https://www.kaggle.com/datasets/davidbroberts/brain-tumor-object-detection-datas
 
 https://medium.com/@huzeyfebicakci/custom-dataset-training-with-yolov10-a-deep-dive-into-the-latest-evolution-in-real-time-object-ab8c62c6af85
 
+https://github.com/ablanco1950/bone-fracture-7fylg_Yolov10
 
 https://github.com/ablanco1950/Fracture.v1i_Reduced_YoloFromScratch
 
