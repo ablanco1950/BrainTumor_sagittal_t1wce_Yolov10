@@ -62,10 +62,11 @@ The LOG_Train_Resume50epoch.docx file is attached with a training log with 50 ep
 
 
 === References
+
 https://www.kaggle.com/datasets/davidbroberts/brain-tumor-object-detection-datasets/data?select=sagittal_t1wce_2_class
 
-https://medium.com/@huzeyfebicakci/custom-dataset-training- with-yolov10-a-deep-dive-into-the-latest-evolution-in-real-time-object-ab8c62c6af85
+https://medium.com/@huzeyfebicakci/custom-dataset-training-with-yolov10-a-deep-dive-into-the-latest-evolution-in-real-time-object-ab8c62c6af85
 
 https://github.com/ablanco1950/Fracture.v1i_Reduced_YoloFromScratch
 
-https://github.com/ablanco1950/ PointOutWristPositiveFracture_on_xray
+https://github.com/ablanco1950/PointOutWristPositiveFracture_on_xray
