@@ -69,4 +69,6 @@ https://medium.com/@huzeyfebicakci/custom-dataset-training-with-yolov10-a-deep-d
 
 https://github.com/ablanco1950/Fracture.v1i_Reduced_YoloFromScratch
 
+https://github.com/ablanco1950/Kidney_Stone-Yolov10
+
 https://github.com/ablanco1950/PointOutWristPositiveFracture_on_xray
