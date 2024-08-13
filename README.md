@@ -6,7 +6,7 @@ a model is obtained, based on yolov10 to indicate a brain tumor type: sagittal_t
  
  Download all project datasets to a folder on disk.
 
-Install yolov10 (if not yet installed) following the instructions given at: https://blog.roboflow.com/yolov10-how-to-train/ which may be reduced to !pip install -q git+https://github. com/THU-MIG/yolov10.git
+Install yolov10 (if not yet installed) following the instructions given at: https://blog.roboflow.com/yolov10-how-to-train/ which may be reduced to !pip install -q git+https://github.com/THU-MIG/yolov10.git
 
 If you already have ultralytics installed, it would be advisable to upgrade ultralytics, unless you have applications based on yolov10 without updating, which could be affected by the update (in this case you could consider copying over a new environment and work in this new environment).
 
@@ -32,7 +32,13 @@ EvaluateTEST_sagittal_t1wce_2_class_Yolov10.py
 
 The x-rays are presented on the screen with a red box indicating the prediction positive, a blue box negative and with a green box the label of the image that must indicate true position .
 
-The console indicates the classes that have been detected and their confidence and the class with the image ws labeled.
+The console indicates the classes that have been detected and their confidence and the class with the image was labeled.
+
+The results seem good in terms of detection, but bad in positive-negative classification, so a test is run using two models with the execution of:
+
+EvaluateTEST_sagittal_t1wce_2_class_SeveralModels_Yolov10.py
+
+observing that the results improve considerably in classification
 
 === Training
 
