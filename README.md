@@ -30,7 +30,7 @@ Execute:
 
 EvaluateTEST_sagittal_t1wce_2_class_Yolov10.py 
 
-The x-rays are presented on the screen with a red box indicating the prediction positive, a blue box negativ and with a green box the label of the image that must indicate true position .
+The x-rays are presented on the screen with a red box indicating the prediction positive, a blue box negative and with a green box the label of the image that must indicate true position .
 
 The console indicates the classes that have been detected and their confidence and the class with the image ws labeled.
 
@@ -66,6 +66,7 @@ The LOG_Train_Resume50epoch.docx file is attached with a training log with 50 ep
 https://www.kaggle.com/datasets/davidbroberts/brain-tumor-object-detection-datasets/data?select=sagittal_t1wce_2_class
 
 https://medium.com/@huzeyfebicakci/custom-dataset-training-with-yolov10-a-deep-dive-into-the-latest-evolution-in-real-time-object-ab8c62c6af85
+
 
 https://github.com/ablanco1950/Fracture.v1i_Reduced_YoloFromScratch
 
